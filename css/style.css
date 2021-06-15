@@ -511,7 +511,7 @@ img.common-img {
         font-size: 3.5vw;
         line-height: 80px;
         letter-spacing: 1px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Times New Roman', Times, serif;
         font-weight: 1000px;
         margin-top: 0;
         margin-bottom: 150px;
@@ -523,7 +523,6 @@ img.common-img {
     .title-text {
         font-family: 'Roboto', sans-serif;
         font-size: 18.6px;
-        text-decoration: underline;
         font-weight: 500px;
         letter-spacing: 1px;
         line-height: 38px;
