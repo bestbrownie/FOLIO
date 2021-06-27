@@ -503,7 +503,65 @@ img.common-img {
         width: 100%;
         background-repeat: no-repeat;
         overflow-y: hidden;
-        background: radial-gradient( ellipse 80% 80% at bottom right, rgb(109, 115, 135), rgb(255, 255, 255));
+        background: radial-gradient( ellipse 50% 80% at bottom right, rgb(43, 43, 46), rgb(255, 255, 255));
+    }
+    .intro-container {
+        position: absolute;
+        top: 22%;
+        left: 20%;
+        right: 80%;
+    }
+    .intro {
+        height: 208vh;
+    }
+    header ul {
+        float: left;
+    }
+    header ul {
+        list-style: none;
+        padding: 0;
+    }
+    ol {
+        list-style-type: lower-roman;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .first-line {
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: 350px;
+        left: 10px;
+        right: 2px;
+        bottom: 100px;
+    }
+    .second-line {
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: 760px;
+        left: 10px;
+        right: 2px;
+        bottom: 0px;
+    }
+    .list-item {
+        line-height: 9em;
+        margin-bottom: 12em;
+    }
+    .list-item-expertise {
+        padding-top: 130px;
+    }
+    .title-item {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 8vw;
+    }
+    .title-item-expertise {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 7.1vw;
+    }
+    .title-icon {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 8.5vw;
+        margin-top: -70px;
     }
     .t-item h1 {
         position: relative;
@@ -517,8 +575,86 @@ img.common-img {
         margin-bottom: 150px;
         padding-top: 230px;
     }
+    .arrow-contral {
+        float: left;
+        left: 68%;
+        top: 248px;
+        position: relative;
+    }
+    .small-arrow {
+        padding-bottom: 330px;
+    }
+    .arrow-expertise {
+        padding-top: 128px;
+    }
+    .chapter-1 h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.9vw;
+        letter-spacing: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .chapter-2 h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.9vw;
+        letter-spacing: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .chapter-3 h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.9vw;
+        letter-spacing: 0.5rem;
+        padding-bottom: 1.7rem;
+    }
+    .chapter-1 {
+        padding: 100px 0 120px 0;
+    }
+    .chapter-2 {
+        padding-bottom: 140px;
+    }
     section.introduction {
         padding: 180px 0px;
+    }
+    .grid-x {
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-flow: row wrap;
+    }
+    .flex-container {
+        display: flex;
+        display: -webkit-box;
+        flex-flow: row wrap;
+    }
+    .nameList .icon {
+        min-width: 58px;
+    }
+    .nameList .software {
+        font-size: 18px;
+        padding-top: 6px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .cell-control-1 {
+        margin-left: -2px;
+    }
+    .cell-control-2 {
+        padding-left: 60px;
+    }
+    .cell {
+        padding-right: 0px;
+        margin-bottom: 18px;
+        flex: 0 0 auto;
+        min-height: 0px;
+        min-width: 0px;
+    }
+    .large-up-2>.cell {
+        width: 34%;
+    }
+    .align-top {
+        align-items: flex-start;
+    }
+    .web {
+        padding-top: 30px;
     }
     .title-text {
         font-family: 'Roboto', sans-serif;
@@ -535,6 +671,13 @@ img.common-img {
         flex: 1.9 1 0%;
         line-height: 28px;
         font-size: 15px;
+    }
+    .out-block {
+        padding: 130px 0 0px;
+        min-height: 860px;
+    }
+    .arrow_03 {
+        padding-top: 500px;
     }
     .character {
         font-family: 'Roboto', sans-serif;
